@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    background-color: azure;
+}
+
+.heading {
+    font-family: "Raleway", Georgia;
+    color: dodgerblue;
+}
+
+.heading p {
+    font-size: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.logo {
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+
+
+
+
+.web p {
+    font-family: "Raleway", Georgia;
+    font-size: 20px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.web a {
+    text-decoration: none;
+    color: plum;
+}
+
+.web a:hover {
+    text-decoration: none;
+    color: blueviolet;
+}
