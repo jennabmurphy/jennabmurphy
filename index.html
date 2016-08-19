@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html class="ng-scope">
 <head>
-    <link rel="icon" href="./Images/Mlogo12.jpg">
+    <link rel="icon" href="./Images/Mlogo9.jpg">
     <link rel="stylesheet" type="text/css" href="main.css"/>
     <link href="https://fonts.googleapis.com/css?family=Arvo|Audiowide|Changa|Cinzel|Cormorant+SC|David+Libre|Lato|Old+Standard+TT|Oswald|Quicksand|Raleway|Roboto+Condensed|Trirong|Vidaloka" rel="stylesheet">
 	<title>Murphy Web Design</title>
@@ -17,17 +17,34 @@
         
         <div class="navbar" style="float: left; position: fixed; font-family: Quicksand, Georgia;">
             
-            <nav>
-              <ul>
+              <ul class="project-list">
                   <a href="index.html"><img src="./Images/Mlogo11.png" height=90px; width=90px;/></a>
-                  <a href="index.html"><p style="font-size: 24px; margin-bottom: 8%; color: #660066;"><b>Murphy Web Designs</b></p></a>
-                  <div class=""><b><a href="#about">Jenna Murphy</a></b></p>
-                  <p><b><a href="#portfolio">Portfolio</a></b></p>
-                  <p><b><a href="#contact">Contact</a></b></p>
-              </ul>
-          </nav>
+                  
+                  <li id="projects" ng-class="{selected: main.activeProject !== 'about' &amp;&amp; main.activeProject !== 'contact'}" ng-click="main.scrollTo('about')" class="selected"><a href="#index"><p style="font-size: 24px; margin-bottom: 8%; color: #660066;"><b>Murphy Web Designs</b></p></a></li>
+                  
+                  <li ng-repeat="(project, details) in main.projects" id="a" class="sub-li ng-binding ng-scope selected" ng-if="main.isProject(project);" ng-class="{selected: main.activeProject === project}" ng-click="main.scrollTo(project)" style=""><p><b><a href="#about">Jenna Murphy</a></b></p></li>
+                    <!-- ngRepeat: (project, details) in main.projects -->
+                    <!-- ngIf: main.isProject(project); -->
+                    <!-- end ngRepeat: (project, details) in main.projects -->
+                    <!-- ngIf: main.isProject(project); -->
+                  <li ng-repeat="(project, details) in main.projects" id="p" class="sub-li ng-binding ng-scope selected" ng-if="main.isProject(project);" ng-class="{selected: main.activeProject === project}" ng-click="main.scrollTo(project)" style=""><p><b><a href="#portfolio">Portfolio</a></b></p></li>
+                    <!-- ngRepeat: (project, details) in main.projects -->
+                    <!-- ngIf: main.isProject(project); -->
+                    <!-- end ngRepeat: (project, details) in main.projects -->
+                    <!-- ngIf: main.isProject(project); -->
+                  <li ng-repeat="(project, details) in main.projects" id="c" class="sub-li ng-binding ng-scope selected" ng-if="main.isProject(project);" ng-class="{selected: main.activeProject === project}" ng-click="main.scrollTo(project)" style=""><p><b><a href="#contact">Contact</a></b></p></li>
+                    <!-- ngRepeat: (project, details) in main.projects -->
+                    <!-- ngIf: main.isProject(project); -->
+                    <!-- end ngRepeat: (project, details) in main.projects -->
+                    <!-- ngIf: main.isProject(project); -->
+              
+                </ul>
         
         </div>
+        
+        
+        
+        
         
         
         <div class="centre">
@@ -62,9 +79,9 @@
      
 
     
-<div id="about" style="height: 80vh; padding-top: 100px;">
+<div id="about" style="height: 100vh; padding-top: 100px; background-color: white;">
     
-    <div class="bar" style="z-index: -1000;"></div>
+    <div class="bar" style="z-index: -1000; height: 6%;"></div>
     
     
     <div class="top">
@@ -81,7 +98,7 @@
       
     
     
-    <div class="home" style="width: 233px; right: 22px; top: 947px;">
+    <div class="home" style="width: 233px; right: 22px; top: 996px;">
         <p>
         <a href="index.html">
         <span style="vertical-align: middle; font-size: 25px;">Jenna Murphy</span>
@@ -100,9 +117,9 @@
     
     
         
-<div id="portfolio" style="height: 80vh; padding-top: 100px;">
+<div id="portfolio" style="height: 100vh; padding-top: 100px; margin-top: 0;">
     
-    <div class="bar" style="z-index: -1000;"></div>
+    <div class="bar" style="z-index: -1000; height: 6%;"></div>
     
     <div class="heading3">
         
@@ -134,7 +151,7 @@
 
     
     
-    <div class="home" style="width: 160px; right: 22px; top: 1728px;">
+    <div class="home" style="width: 160px; right: 22px; top: 1716px;">
         <p>
         <a href="index.html">
         <span style="vertical-align: middle; font-size: 25px;">Portfolio</span>
@@ -154,9 +171,9 @@
     
     
     
-<div id="contact" style="height: 88vh; padding-top: 100px;">
+<div id="contact" style="height: 100vh; padding-top: 100px; background-color: white;">
     
-    <div class="bar" style="z-index: -1000; height: 7.25%;"></div>
+    <div class="bar" style="z-index: -1000; height: 6%;"></div>
     
     <div class="heading4">
         
@@ -170,7 +187,7 @@
     
         
     <div class="contact">
-        <h2><a href="http://ca.linkedin.com/in/jenna-murphy-a02854bb " target="_blank">LinkedIn</a></h2>
+        <h2><a href="http://ca.linkedin.com/in/jenna-murphy-a02854bb" target="_blank">LinkedIn</a></h2>
         <h2><a href="mailto:jenna.b.murphy@gmail.com" target="_blank">Email</a></h2>
         
     </div>
@@ -178,7 +195,7 @@
     
     
 
-    <div class="home" style="width: 185px; right: 22px; top: 2510px;">
+    <div class="home" style="width: 185px; right: 22px; top: 2566px;">
         <p>
         <a href="index.html">
         <span style="vertical-align: middle; font-size: 25px;">Reach Out</span>
