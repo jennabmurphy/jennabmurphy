@@ -113,7 +113,7 @@ ul img {
 }
 
 .navbar a {
-    color: royalblue;
+    color: white;
     text-decoration: none;
 }
 
@@ -152,11 +152,11 @@ ul img {
 
 .about a {
     text-decoration: none; 
-    color: royalblue;
+    color: white;
 }
 
 .about a:hover {
-    color: darkblue;
+    color: skyblue;
     
 }
 
@@ -252,13 +252,13 @@ span {
 
 .contact h2 a {
     text-decoration: none;
-    color: skyblue;
+    color: white;
     
 }
 
 .contact h2 a:hover {
     text-decoration: none;
-    color: royalblue;
+    color: skyblue;
     
 }
 
