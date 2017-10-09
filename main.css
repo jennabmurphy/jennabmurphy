@@ -305,8 +305,315 @@ span {
 .home a{
     color: steelblue;
     text-decoration: none;
+}body {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    margin-top: 10%;
+    height: 100vh;
+    background-color: #D5D5D5;
+    
+}
+
+
+
+
+
+
+#index {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    margin-top: 10%;
+    height: 50vh;
+    
+}
+
+#about {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    margin-top: 10%;
+    height: 50vh;
+    
+    
+}
+
+
+#portfolio {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    margin-top: 10%;
+    height: 50vh;
+    
+}
+
+#contact {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    margin-top: 10%;
+    height: 50vh;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.heading {
+    font-family: "Quicksand", Georgia;
+}
+
+.heading p {
+    font-size: 80px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.centre {
+    width: 550px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 10%;
+    left: 30%
+    
+    
+}
+
+.logo {
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+ul { 
+    list-style: none;
+    padding: 0;
+    list-style-type: none;
+    width: 160px;
+}
+
+ul img {
+    text-align: center;
+}
+
+.navbar {
+    text-align: left;
+    vertical-align: top;
+    margin-left: 2%;
+    margin-top: -6%;
+    width: 250px;
+}
+
+.navbar p {
+    font-size: 17px;
+    
+}
+
+.navbar a {
+    color: #9099A2;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+
+
+
+
+
+
+
+.heading2 {
+    font-family: "Quicksand", Georgia;
+    color: ;
+}
+
+.heading2 p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.about {
+    font-family: "Raleway", Georgia;
+    font-size: 20px;
+    color: #9099A2;
+    text-decoration: none;
+    width: 800px;
+    text-align: center;
+    
+}
+
+.about a {
+    text-decoration: none; 
+    color: #6D7993;
+}
+
+.about a:hover {
+    color: white;
+    
+}
+
+
+
+
+
+
+
+.heading3 {
+    font-family: "Quicksand", Georgia;
+}
+
+.heading3 p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.top {
+    color: #6D7993;
+    font-size: 35px;
+	font-family: 'Raleway', 'Georgia';
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+    width: 60%;
+    margin-left: 20%;
+    
+    
+}
+
+span {
+    vertical-align: middle;
+    
+}
+
+.web {
+    margin-top: 20%;
+    
+}
+
+.web p {
+    font-family: "Raleway", Georgia;
+    font-size: 20px;
+    color: #9099A2;
+    text-decoration: none;
+}
+
+.web a {
+    text-decoration: none;
+    color: #6D7993;
+}
+
+.web a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.heading4 {
+    font-family: "Quicksand", Georgia;
+    color: ;
+}
+
+.heading4 p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.contact {
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 42%;
+    margin-top: -2%;
+}
+
+.contact h2 {
+    font-family: "Raleway", Georgia;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.contact h2 a {
+    text-decoration: none;
+    color: #9099A2;
+    
+}
+
+.contact h2 a:hover {
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+.bar {
+    width: 100%;
+    background-color: #9099A2;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.home {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    height: 70px;
+    width: 160px;
+    margin-top: 1%;
+    
+}
+
+.home img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.home p{
+    color: #96858F;
+    text-align: left;
+    vertical-align: middle;
+    font-family: "Quicksand", Georgia;
+}
+
+.home a{
+    color: #96858F;
+    text-decoration: none;
 }
 
 .home a:hover{
-    color: darkblue;
+    color: white;
 }
