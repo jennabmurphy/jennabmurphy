@@ -4,7 +4,7 @@ body {
     margin: 0;
     margin-top: 10%;
     height: 100vh;
-    background-color: #d8f0f3;
+    background-color: #D5D5D5;
     
 }
 
@@ -113,12 +113,12 @@ ul img {
 }
 
 .navbar a {
-    color: white;
+    color: #9099A2;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    color: darkblue;
+    color: white;
 }
 
 
@@ -143,7 +143,7 @@ ul img {
 .about {
     font-family: "Raleway", Georgia;
     font-size: 20px;
-    color: skyblue;
+    color: #9099A2;
     text-decoration: none;
     width: 800px;
     text-align: center;
@@ -152,11 +152,11 @@ ul img {
 
 .about a {
     text-decoration: none; 
-    color: white;
+    color: #6D7993;
 }
 
 .about a:hover {
-    color: skyblue;
+    color: white;
     
 }
 
@@ -177,7 +177,7 @@ ul img {
 }
 
 .top {
-    color: royalblue;
+    color: #6D7993;
     font-size: 35px;
 	font-family: 'Raleway', 'Georgia';
     text-align: center;
@@ -202,18 +202,18 @@ span {
 .web p {
     font-family: "Raleway", Georgia;
     font-size: 20px;
-    color: white;
+    color: #9099A2;
     text-decoration: none;
 }
 
 .web a {
     text-decoration: none;
-    color: white;
+    color: #6D7993;
 }
 
 .web a:hover {
     text-decoration: none;
-    color: skyblue;
+    color: white;
 }
 
 
@@ -245,20 +245,20 @@ span {
 .contact h2 {
     font-family: "Raleway", Georgia;
     font-size: 20px;
-    color: white;
+    color: black;
     text-decoration: none;
     
 }
 
 .contact h2 a {
     text-decoration: none;
-    color: white;
+    color: #9099A2;
     
 }
 
 .contact h2 a:hover {
     text-decoration: none;
-    color: skyblue;
+    color: white;
     
 }
 
@@ -270,7 +270,7 @@ span {
 
 .bar {
     width: 100%;
-    background-color: #37a0ae;
+    background-color: #9099A2;
     background-repeat: no-repeat;
 }
 
@@ -296,17 +296,17 @@ span {
 }
 
 .home p{
-    color: steelblue;
+    color: #96858F;
     text-align: left;
     vertical-align: middle;
     font-family: "Quicksand", Georgia;
 }
 
 .home a{
-    color: steelblue;
+    color: #96858F;
     text-decoration: none;
 }
 
 .home a:hover{
-    color: darkblue;
+    color: white;
 }
